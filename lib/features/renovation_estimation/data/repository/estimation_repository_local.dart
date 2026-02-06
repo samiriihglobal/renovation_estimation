@@ -85,6 +85,26 @@ class LocalEstimationRepository implements EstimationRepository {
             )
           ]
       ),
+      EstimateSection(
+          id: '2',
+          title: 'Internal work',
+          Fprize: 'F3',
+          groups: [
+            EstimateGroup(
+                id: 'g3',
+                title: 'Construction site preparation',
+                items: [
+                  EstimateItem(
+                      id: 'i3',
+                      code: 'C-AC-001',
+                      description: 'Preparation and protection...',
+                      unitaryPrice: 1500,
+                      Fprize: "F1"
+                  ),
+                ]
+            )
+          ]
+      ),
     ];
   }
 
